@@ -1,0 +1,26 @@
+.contain{
+text-align: center;
+}
+.project{
+background-color: #FBF9FE;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
+.widgets__info-img{
+min-height: 10px;
+min-width: 10px;
+text-align: center;
+}
+.backcolor{
+background-color: #FFFFFF;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.panel{
+background-color:#FBF9FE;
+ font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}

@@ -1,0 +1,13 @@
+<scroll-view class="panel" scroll-y="true" bindscrolltolower="lower" style="height: 100%;">
+<view class="contain">健康菜谱</view>
+<block  wx:for="{{list}}"  >
+ <view  hover-class="navigator-hover" class="backcolor">
+<view class="center"><image  src="http://tnfs.tngou.net/image{{item.img}}" mode="aspectFill" class="widgets__info-img"/></view>
+<view>菜名：{{item.name}}</view>
+<view>做法：{{item.description}}</view>
+<view>食材：{{item.food}}</view>
+<view>调料：{{item.keywords}}</view>
+<button bindtap="descrip" data-id="{{item.id}}">详细做法</button>
+</view>
+</block>
+</scroll-view>

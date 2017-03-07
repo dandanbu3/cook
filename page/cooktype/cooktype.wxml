@@ -1,0 +1,9 @@
+<view class="panel">
+<view class="contain">菜谱类别</view>
+<block wx:for="{{list}}" class="project" >
+ <view  data-classid="{{item.id}}"  hover-class="navigator-hover" bindtap="navigation" class="backcolor">
+<image class="widgets__info-img" src="/image/arrowright.png" mode="aspectFill" />
+<view>对应功能：{{item.description}}</view>
+</view>
+</block>
+</view>

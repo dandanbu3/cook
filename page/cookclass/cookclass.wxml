@@ -1,0 +1,15 @@
+<view class="panel">
+<view class="contain" >健康菜谱</view>
+<!--<button bindtap="test">善意捐助</button>-->
+<view>
+<view class="inlineblock">  快捷搜索：</view>
+<view class="inlineblock"><input auto-focus="true" type="text" bindinput="namecontent" class="back" /></view>
+<view class="inlineblock"><image src="/image/sousuo.png" class="info-img" bindtap="surf" mode="aspectFill"/></view>
+</view>
+<block wx:for="{{list}}" class="project" >
+ <view  data-classid="{{item.id}}" id="{{item.id}}" hover-class="navigator-hover" bindtap="navigation" class="backcolor">
+<image class="widgets__info-img" src="/image/arrowright.png" mode="aspectFill" />
+<view>菜类描述：{{item.description}}</view>
+</view>
+</block>
+</view>

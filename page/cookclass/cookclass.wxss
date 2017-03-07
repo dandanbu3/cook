@@ -1,0 +1,44 @@
+.contain{
+text-align: center;
+}
+.project{
+text-align: center;
+background-color: darkred;
+width: 200px;
+height: 100px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
+.widgets__info-img{
+height: 10px;
+width: 10px;
+text-align: right;
+
+}
+.backcolor{
+background-color: #FFFFFF;
+margin-bottom: 10px;
+margin-top: 10px;
+padding: 0 20rpx;
+}
+.panel{
+background-color:#FBF9FE;
+ font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+.info-img{
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+.inlineblock{
+display: inline-block;
+
+}
+.back{
+border: 1px solid cornflowerblue;
+
+}
